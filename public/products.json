@@ -1,0 +1,695 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "Men",
+      "name": "Men's Casual Shirt",
+      "brand": "Brand A",
+      "price": 29.99,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Blue",
+        "Black",
+        "White"
+      ],
+      "material": "Cotton",
+      "in_stock": true,
+      "ratings": 4.5,
+      "image_url": "https://example.com/mens-casual-shirt.jpg",
+      "description": "Comfortable and stylish casual shirt made of pure cotton."
+    },
+    {
+      "id": 2,
+      "category": "Men",
+      "name": "Men's Running Shoes",
+      "brand": "Brand B",
+      "price": 59.99,
+      "size": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "color": [
+        "Red",
+        "Gray"
+      ],
+      "material": "Mesh and Rubber",
+      "in_stock": true,
+      "ratings": 4.7,
+      "image_url": "https://example.com/mens-running-shoes.jpg",
+      "description": "Lightweight running shoes with excellent grip and durability."
+    },
+    {
+      "id": 3,
+      "category": "Men",
+      "name": "Men's Leather Wallet",
+      "brand": "Brand C",
+      "price": 24.99,
+      "size": [
+        "One Size"
+      ],
+      "color": [
+        "Brown",
+        "Black"
+      ],
+      "material": "Genuine Leather",
+      "in_stock": true,
+      "ratings": 4.6,
+      "image_url": "https://example.com/mens-wallet.jpg",
+      "description": "Premium leather wallet with multiple compartments."
+    },
+    {
+      "id": 4,
+      "category": "Men",
+      "name": "Men's Formal Trousers",
+      "brand": "Brand D",
+      "price": 39.99,
+      "size": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "color": [
+        "Navy",
+        "Black"
+      ],
+      "material": "Polyester Blend",
+      "in_stock": true,
+      "ratings": 4.4,
+      "image_url": "https://example.com/mens-trousers.jpg",
+      "description": "Smart-fit formal trousers for office and casual wear."
+    },
+    {
+      "id": 5,
+      "category": "Men",
+      "name": "Men's Denim Jeans",
+      "brand": "Brand E",
+      "price": 49.99,
+      "size": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "color": [
+        "Blue",
+        "Black"
+      ],
+      "material": "Denim",
+      "in_stock": true,
+      "ratings": 4.5,
+      "image_url": "https://example.com/mens-jeans.jpg",
+      "description": "Classic denim jeans with a comfortable fit."
+    },
+    {
+      "id": 6,
+      "category": "Men",
+      "name": "Men's Winter Jacket",
+      "brand": "Brand F",
+      "price": 89.99,
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "color": [
+        "Gray",
+        "Black"
+      ],
+      "material": "Polyester",
+      "in_stock": true,
+      "ratings": 4.8,
+      "image_url": "https://example.com/mens-jacket.jpg",
+      "description": "Warm and stylish winter jacket for extreme cold."
+    },
+    {
+      "id": 7,
+      "category": "Men",
+      "name": "Men's Sports Watch",
+      "brand": "Brand G",
+      "price": 79.99,
+      "size": [
+        "One Size"
+      ],
+      "color": [
+        "Black",
+        "Silver"
+      ],
+      "material": "Stainless Steel",
+      "in_stock": true,
+      "ratings": 4.7,
+      "image_url": "https://example.com/mens-watch.jpg",
+      "description": "Durable sports watch with multiple features."
+    },
+    {
+      "id": 8,
+      "category": "Men",
+      "name": "Men's Leather Belt",
+      "brand": "Brand H",
+      "price": 19.99,
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Brown",
+        "Black"
+      ],
+      "material": "Genuine Leather",
+      "in_stock": true,
+      "ratings": 4.6,
+      "image_url": "https://example.com/mens-belt.jpg",
+      "description": "Classic leather belt with premium finish."
+    },
+    {
+      "id": 9,
+      "category": "Women",
+      "name": "Women's Summer Dress",
+      "brand": "Brand A",
+      "price": 39.99,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Pink",
+        "Yellow",
+        "Green"
+      ],
+      "material": "Chiffon",
+      "in_stock": true,
+      "ratings": 4.3,
+      "image_url": "https://example.com/womens-summer-dress.jpg",
+      "description": "Elegant and breathable summer dress perfect for outings."
+    },
+    {
+      "id": 10,
+      "category": "Women",
+      "name": "Women's Handbag",
+      "brand": "Brand B",
+      "price": 49.99,
+      "size": [
+        "Medium"
+      ],
+      "color": [
+        "Black",
+        "Brown"
+      ],
+      "material": "Leather",
+      "in_stock": true,
+      "ratings": 4.6,
+      "image_url": "https://example.com/womens-handbag.jpg",
+      "description": "Stylish leather handbag with ample storage space."
+    },
+    {
+      "id": 11,
+      "category": "Kids",
+      "name": "Cartoon Print T-Shirt",
+      "price": 14.99,
+      "size": [
+        "2T",
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "color": [
+        "Red",
+        "Yellow",
+        "Blue"
+      ],
+      "brand": "Carter's",
+      "image": "/images/kids/tshirt1.jpg",
+      "description": "Cute and comfortable cartoon print t-shirt.",
+      "stock": 40
+    },
+    {
+      "id": 12,
+      "category": "Kids",
+      "name": "Sports Shoes",
+      "price": 29.99,
+      "size": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "color": [
+        "Black",
+        "White"
+      ],
+      "brand": "Nike Kids",
+      "image": "/images/kids/shoes1.jpg",
+      "description": "Comfortable sports shoes for kids.",
+      "stock": 25
+    },
+    {
+      "id": 13,
+      "category": "Kids",
+      "name": "Denim Jacket",
+      "price": 34.99,
+      "size": [
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "color": [
+        "Blue"
+      ],
+      "brand": "Levi's Kids",
+      "image": "/images/kids/jacket1.jpg",
+      "description": "Stylish denim jacket for kids.",
+      "stock": 18
+    },
+    {
+      "id": 14,
+      "category": "Kids",
+      "name": "Winter Coat",
+      "price": 49.99,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Red",
+        "Black"
+      ],
+      "brand": "Columbia Kids",
+      "image": "/images/kids/coat1.jpg",
+      "description": "Warm and stylish winter coat for kids.",
+      "stock": 20
+    },
+    {
+      "id": 15,
+      "category": "Kids",
+      "name": "School Backpack",
+      "price": 27.99,
+      "size": [
+        "One Size"
+      ],
+      "color": [
+        "Red",
+        "Blue"
+      ],
+      "brand": "Nike Kids",
+      "image": "/images/kids/backpack1.jpg",
+      "description": "Durable and stylish school backpack for kids.",
+      "stock": 40
+    },
+    {
+      "id": 41,
+      "category": "Kids",
+      "name": "Cartoon Print T-Shirt",
+      "price": 14.99,
+      "size": [
+        "2T",
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "color": [
+        "Red",
+        "Yellow",
+        "Blue"
+      ],
+      "brand": "Carter's",
+      "image": "/images/kids/tshirt1.jpg",
+      "description": "Cute and comfortable cartoon print t-shirt.",
+      "stock": 40,
+      "details": {
+        "features": [
+          "100% Cotton",
+          "Soft and breathable",
+          "Perfect for kids"
+        ],
+        "reviews": [
+          {
+            "username": "Parent123",
+            "rating": 4.9,
+            "comment": "My kid loves it!"
+          }
+        ],
+        "relatedProducts": [
+          {
+            "id": 42,
+            "name": "Sports Shoes",
+            "price": 29.99,
+            "image": "/images/kids/shoes1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "category": "Kids",
+      "name": "Sports Shoes",
+      "price": 29.99,
+      "size": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "color": [
+        "Black",
+        "White"
+      ],
+      "brand": "Nike Kids",
+      "image": "/images/kids/shoes1.jpg",
+      "description": "Comfortable sports shoes for kids.",
+      "stock": 25
+    },
+    {
+      "id": 43,
+      "category": "Kids",
+      "name": "Denim Jacket",
+      "price": 34.99,
+      "size": [
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "color": [
+        "Blue"
+      ],
+      "brand": "Levi's Kids",
+      "image": "/images/kids/jacket1.jpg",
+      "description": "Stylish denim jacket for kids.",
+      "stock": 18
+    },
+    {
+      "id": 44,
+      "category": "Kids",
+      "name": "Cotton Pajamas",
+      "price": 24.99,
+      "size": [
+        "2T",
+        "3T",
+        "4T",
+        "5T"
+      ],
+      "color": [
+        "Green",
+        "Pink"
+      ],
+      "brand": "Carter's",
+      "image": "/images/kids/pajamas1.jpg",
+      "description": "Soft and cozy cotton pajamas set.",
+      "stock": 30
+    },
+    {
+      "id": 45,
+      "category": "Kids",
+      "name": "Winter Coat",
+      "price": 49.99,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Red",
+        "Black"
+      ],
+      "brand": "Columbia Kids",
+      "image": "/images/kids/coat1.jpg",
+      "description": "Warm and stylish winter coat for kids.",
+      "stock": 20
+    },
+    {
+      "id": 46,
+      "category": "Kids",
+      "name": "Printed Hoodie",
+      "price": 22.99,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Blue",
+        "Yellow"
+      ],
+      "brand": "Adidas Kids",
+      "image": "/images/kids/hoodie1.jpg",
+      "description": "Casual printed hoodie for kids.",
+      "stock": 35
+    },
+    {
+      "id": 47,
+      "category": "Kids",
+      "name": "Soft Plush Toy",
+      "price": 15.99,
+      "size": [
+        "One Size"
+      ],
+      "color": [
+        "Brown",
+        "Pink"
+      ],
+      "brand": "Toy Company",
+      "image": "/images/kids/toy1.jpg",
+      "description": "Super soft plush teddy bear for kids.",
+      "stock": 50
+    },
+    {
+      "id": 48,
+      "category": "Kids",
+      "name": "School Backpack",
+      "price": 27.99,
+      "size": [
+        "One Size"
+      ],
+      "color": [
+        "Red",
+        "Blue"
+      ],
+      "brand": "Nike Kids",
+      "image": "/images/kids/backpack1.jpg",
+      "description": "Durable and stylish school backpack for kids.",
+      "stock": 40
+    },
+    {
+      "id": 49,
+      "category": "Kids",
+      "name": "Casual Sandals",
+      "price": 19.99,
+      "size": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "color": [
+        "Blue",
+        "Brown"
+      ],
+      "brand": "Puma Kids",
+      "image": "/images/kids/sandals1.jpg",
+      "description": "Comfortable sandals for kids.",
+      "stock": 25
+    },
+    {
+      "id": 50,
+      "category": "Kids",
+      "name": "Classic Sneakers",
+      "price": 32.99,
+      "size": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "color": [
+        "White",
+        "Black"
+      ],
+      "brand": "Converse Kids",
+      "image": "/images/kids/sneakers1.jpg",
+      "description": "Trendy sneakers for kids.",
+      "stock": 30
+    },
+    {
+      "id": 1,
+      "category": "Women",
+      "name": "Women's Summer Dress",
+      "brand": "Brand A",
+      "price": 39.99,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Pink",
+        "Yellow",
+        "Green"
+      ],
+      "material": "Chiffon",
+      "in_stock": true,
+      "ratings": 4.3,
+      "image_url": "https://example.com/womens-summer-dress.jpg",
+      "description": "Elegant and breathable summer dress perfect for outings."
+    },
+    {
+      "id": 2,
+      "category": "Women",
+      "name": "Women's Handbag",
+      "brand": "Brand B",
+      "price": 49.99,
+      "size": [
+        "Medium"
+      ],
+      "color": [
+        "Black",
+        "Brown"
+      ],
+      "material": "Leather",
+      "in_stock": true,
+      "ratings": 4.6,
+      "image_url": "https://example.com/womens-handbag.jpg",
+      "description": "Stylish leather handbag with ample storage space."
+    },
+    {
+      "id": 3,
+      "category": "Women",
+      "name": "Women's Running Shoes",
+      "brand": "Brand C",
+      "price": 64.99,
+      "size": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "color": [
+        "Purple",
+        "Gray"
+      ],
+      "material": "Synthetic Mesh",
+      "in_stock": true,
+      "ratings": 4.8,
+      "image_url": "https://example.com/womens-running-shoes.jpg",
+      "description": "Comfortable running shoes designed for high performance."
+    },
+    {
+      "id": 4,
+      "category": "Women",
+      "name": "Women's Sunglasses",
+      "brand": "Brand D",
+      "price": 29.99,
+      "size": [
+        "One Size"
+      ],
+      "color": [
+        "Black",
+        "Brown"
+      ],
+      "material": "Plastic & Glass",
+      "in_stock": true,
+      "ratings": 4.7,
+      "image_url": "https://example.com/womens-sunglasses.jpg",
+      "description": "Stylish sunglasses with UV protection."
+    },
+    {
+      "id": 5,
+      "category": "Women",
+      "name": "Women's Casual Blouse",
+      "brand": "Brand E",
+      "price": 25.99,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "White",
+        "Blue"
+      ],
+      "material": "Cotton",
+      "in_stock": true,
+      "ratings": 4.5,
+      "image_url": "https://example.com/womens-blouse.jpg",
+      "description": "Light and breathable casual blouse for everyday wear."
+    },
+    {
+      "id": 6,
+      "category": "Women",
+      "name": "Women's Leather Boots",
+      "brand": "Brand F",
+      "price": 79.99,
+      "size": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "color": [
+        "Black",
+        "Brown"
+      ],
+      "material": "Genuine Leather",
+      "in_stock": true,
+      "ratings": 4.8,
+      "image_url": "https://example.com/womens-boots.jpg",
+      "description": "Durable and stylish leather boots for all seasons."
+    },
+    {
+      "id": 7,
+      "category": "Women",
+      "name": "Women's Sports Leggings",
+      "brand": "Brand G",
+      "price": 34.99,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Gray",
+        "Black"
+      ],
+      "material": "Spandex & Polyester",
+      "in_stock": true,
+      "ratings": 4.6,
+      "image_url": "https://example.com/womens-leggings.jpg",
+      "description": "Stretchy and breathable leggings perfect for workouts."
+    },
+    {
+      "id": 8,
+      "category": "Women",
+      "name": "Women's Wool Sweater",
+      "brand": "Brand H",
+      "price": 59.99,
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Red",
+        "Green",
+        "Beige"
+      ],
+      "material": "Wool Blend",
+      "in_stock": true,
+      "ratings": 4.7,
+      "image_url": "https://example.com/womens-sweater.jpg",
+      "description": "Warm and cozy wool sweater for winter."
+    }
+  ]
+}

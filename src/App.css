@@ -1,0 +1,21 @@
+.carousel-item img {
+   max-height: 100% !important;
+}
+
+.logo {
+   font-family: cursive;
+}
+
+.main {
+   min-height: calc(50vh - 20px);
+   /* margin: auto; */
+   align-content: center;
+}
+
+.header_row {
+   display: flex;
+   align-items: center;
+}
+.featured__item{
+   cursor: pointer;
+}

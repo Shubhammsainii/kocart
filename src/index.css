@@ -1,0 +1,12 @@
+:root{
+    --theme_bg:#f6e6d9;
+    --theme_color:#000000;
+ }
+@import url('./theme/css/bootstrap.min.css');
+ @import url('./theme/css/font-awesome.min.css');
+ @import url('./theme/css/elegant-icons.css');
+ @import url('./theme/css/nice-select.css');
+ /* @import url('./theme/css/jquery-ui.min.css'); */
+ /* @import url('./theme/css/owl.carousel.min.css'); */
+ @import url('./theme/css/slicknav.min.css');
+ @import url('./theme/css/style.css'); 
